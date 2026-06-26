@@ -12,6 +12,9 @@
     <ClCompile Include="TempClass.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -21,6 +24,9 @@
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="TempClass.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>

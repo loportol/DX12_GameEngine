@@ -1,4 +1,5 @@
 #pragma once
+#include "EngineMin.h"
 
 class KT_API TempClass
 {
@@ -6,8 +7,6 @@ class KT_API TempClass
 public:
 	TempClass();
 
-	int GetValue();
-
-	int i = 0;
+	unsigned int i = 0;
 };
 

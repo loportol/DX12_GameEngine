@@ -5,8 +5,3 @@ TempClass::TempClass()
 {
 }
 
-int TempClass::GetValue()
-{
-	return 0;
-}
-
