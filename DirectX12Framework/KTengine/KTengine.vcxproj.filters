@@ -4,6 +4,12 @@
     <Filter Include="Source">
       <UniqueIdentifier>{07aadfae-4f2b-4916-aa02-d7fffe7f43ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\RenderAPI">
+      <UniqueIdentifier>{b99ad363-5502-49aa-9290-30f278483fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RenderAPI\DirectX12">
+      <UniqueIdentifier>{a1543b99-d8af-407c-ac1d-d7dc18dafef2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -15,12 +21,15 @@
     <ClCompile Include="Application.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="RenderAPI.cpp">
+      <Filter>Source\RenderAPI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="EngineMin.h">
+    <ClInclude Include="KTengineMin.h">
       <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="TempClass.h">
@@ -28,6 +37,9 @@
     </ClInclude>
     <ClInclude Include="Application.h">
       <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderAPI.h">
+      <Filter>Source\RenderAPI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

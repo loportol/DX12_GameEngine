@@ -3,7 +3,7 @@
 using namespace std;
 int main() {
 
-	using namespace Engine;
+	using namespace KTengine;
 
 	Application engineApp;
 

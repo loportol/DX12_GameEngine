@@ -7,6 +7,15 @@
 #ifndef PCH_H
 #define PCH_H
 
-#include "EngineMin.h"
+#include "KTengineMin.h"
+
+//Directx headers:
+#include <d3d12.h>
+#include <dxgi1_6.h>
+
+//compiled lib files for d12
+
+#pragma comment(lib, "dxgi.lib")
+#pragma comment(lib, "D3D12.lib")
 
 #endif 

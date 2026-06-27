@@ -1,15 +1,13 @@
 #pragma once
+#include "KTengineMin.h"
 
 //Library Header Files
 #include <Windows.h>
 
-
-
-
-#include "EngineMin.h"
+#include "RenderAPI.h"
 
 //Wrapper for Engine Window
-namespace Engine {
+namespace KTengine {
 
 	class KT_API Application
 	{
@@ -20,11 +18,21 @@ namespace Engine {
 
 		bool Initialize();
 
+		void OnCreate(HWND hwnd);
+
+		void OnDestroy();
+
 		void Update();
 
 		inline bool isRunning() { return m_isRunning; }
 
-	private:
+
+	private: //subsystems
+		RenderAPI m_Renderer;
+
+
+
+	private: //variables
 		HWND m_WindowHandle = nullptr;
 
 		bool m_isRunning = false;
